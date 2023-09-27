@@ -75,6 +75,12 @@ const getAllProducts = async (req, res) => {
     results = results.sort("dateCreated");
   }
 
+  /*** Show only specific fields ***/
+  if (fields) {
+    const fieldsSelected = fields.split(",").join(" ");
+    results = results.select(fieldsSelected);
+  }
+
   const products = await results;
 
   res.status(200).json({
