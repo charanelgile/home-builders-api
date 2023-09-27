@@ -30,7 +30,7 @@ Clone your forked repository into your computer:
 git clone https://github.com/<USERNAME>/<FORKED_REPOSITORY_NAME>.git
 
 (via SSH)
-git@github.com:<USERNAME>/<FORKED_REPOSITORY_NAME>.git
+git clone git@github.com:<USERNAME>/<FORKED_REPOSITORY_NAME>.git
 ```
 
 <br>
