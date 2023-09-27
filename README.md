@@ -30,7 +30,7 @@ Clone your forked repository into your computer:
 git clone https://github.com/<USERNAME>/<FORKED_REPOSITORY_NAME>.git
 
 (via SSH)
-git@github.com:<USERNAME>/<FORKED_REPOSITORY_NAME>.git
+git clone git@github.com:<USERNAME>/<FORKED_REPOSITORY_NAME>.git
 ```
 
 <br>
@@ -50,7 +50,7 @@ Create a database user and assign a unique password thats easy to remember
 Get the connection string, replacing the < password > with your assigned password
 <br>
 Assign a collection name, preferably <b>"home-builders"</b> and write it in the connection string between the "/" and "?"
-<br>
+<br><br>
 <i>(Your connection string should look something like this:)</i>
 
 ```
