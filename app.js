@@ -3,6 +3,7 @@ require("express-async-errors");
 
 const express = require("express");
 const connectToDatabase = require("./database/connectToDatabase");
+const productsRoute = require("./routes/products");
 
 const app = express();
 
@@ -18,9 +19,12 @@ app.get("/", (req, res) => {
     <br/>
     <h3>API for Home Construction Supplies built using Node, Express, and MongoDB</h3>
     <br/>
-    <a href="/api/products">Go to Endpoint</a>
+    <a href="/api/v1/products">Go to Endpoint</a>
   `);
 });
+
+// Products Route
+app.use("/api/v1/products", productsRoute);
 
 const connectDBstartServer = async () => {
   try {
