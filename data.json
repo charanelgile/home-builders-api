@@ -1,0 +1,303 @@
+[
+  {
+    "name": "Hemnes Coffee Table",
+    "price": 5990,
+    "brand": "Ikea",
+    "featured": true,
+    "rating": 3.5
+  },
+  {
+    "name": "Edinburgh Mattress",
+    "price": 25170,
+    "brand": "Salem",
+    "featured": true,
+    "rating": 3
+  },
+  {
+    "name": "Orthocare Harmony Mattress",
+    "price": 24299.75,
+    "brand": "Uratex",
+    "featured": false,
+    "rating": 4
+  },
+  {
+    "name": "Gala Pull-Out Bed Box",
+    "price": 9695,
+    "brand": "Mandaue Foam",
+    "featured": false,
+    "rating": 4.5
+  },
+  {
+    "name": "Ultra Agata",
+    "price": 36799,
+    "brand": "Global Home",
+    "featured": true,
+    "rating": 2.5
+  },
+  {
+    "name": "Big Wave Bamboo Cladding",
+    "price": 5371.5,
+    "brand": "Modern Bamboo",
+    "featured": true,
+    "rating": 4.5
+  },
+  {
+    "name": "Alfiva Gray",
+    "price": 1350,
+    "brand": "Eurotiles",
+    "featured": false,
+    "rating": 3
+  },
+  {
+    "name": "DC Motor Standard Living Fan (F-409LS)",
+    "price": 3999,
+    "brand": "Panasonic",
+    "featured": false,
+    "rating": 1
+  },
+  {
+    "name": "Compact Inverter",
+    "price": 25498,
+    "brand": "Condura",
+    "featured": true,
+    "rating": 4
+  },
+  {
+    "name": "OLED evo 65 in. TV",
+    "price": 62470,
+    "brand": "LG",
+    "featured": false,
+    "rating": 3.5
+  },
+  {
+    "name": "Dimforsen Bath Towel",
+    "price": 300,
+    "brand": "Ikea",
+    "featured": true,
+    "rating": 4.5
+  },
+  {
+    "name": "Diplomatt Mattress",
+    "price": 10360,
+    "brand": "Salem",
+    "featured": true,
+    "rating": 5
+  },
+  {
+    "name": "Hulma Kurtina Alon Sheer",
+    "price": 549,
+    "brand": "Uratex",
+    "featured": false,
+    "rating": 1
+  },
+  {
+    "name": "Averie Open Wardrobe",
+    "price": 2437.99,
+    "brand": "Mandaue Foam",
+    "featured": false,
+    "rating": 3
+  },
+  {
+    "name": "Marmi Classic",
+    "price": 33199,
+    "brand": "Global Home",
+    "featured": false,
+    "rating": 3
+  },
+  {
+    "name": "Walnut Brown Strandwoven Bamboo Flooring",
+    "price": 3195,
+    "brand": "Modern Bamboo",
+    "featured": true,
+    "rating": 5
+  },
+  {
+    "name": "Primavera Beige",
+    "price": 790,
+    "brand": "Eurotiles",
+    "featured": false,
+    "rating": 2.5
+  },
+  {
+    "name": "Prime Edition Multi-door Inverter Refrigerator (NR-CW530XMMP)",
+    "price": 89999,
+    "brand": "Panasonic",
+    "featured": false,
+    "rating": 1
+  },
+  {
+    "name": "Prima Split Type Airconditioner (FP-53KSV018313)",
+    "price": 34979,
+    "brand": "Condura",
+    "featured": true,
+    "rating": 3
+  },
+  {
+    "name": "WashTower All-In-One Washer Dryer (WT1410NHEG)",
+    "price": 22560,
+    "brand": "LG",
+    "featured": false,
+    "rating": 3.5
+  },
+  {
+    "name": "Skruvsta Swivel Chair",
+    "price": 9990,
+    "brand": "Ikea",
+    "featured": true,
+    "rating": 3.5
+  },
+  {
+    "name": "Dawson Nite & Day Headboard",
+    "price": 3565,
+    "brand": "Salem",
+    "featured": true,
+    "rating": 2.5
+  },
+  {
+    "name": "Echo Quilted Headboard",
+    "price": 4999.75,
+    "brand": "Uratex",
+    "featured": false,
+    "rating": 2
+  },
+  {
+    "name": "Terrie Loft Bed with Desk",
+    "price": 25235,
+    "brand": "Mandaue Foam",
+    "featured": true,
+    "rating": 3
+  },
+  {
+    "name": "Heritage Filigrana Listone Giordano Wood Flooring",
+    "price": 7489,
+    "brand": "Global Home",
+    "featured": false,
+    "rating": 1
+  },
+  {
+    "name": "Big Wave Bamboo Decking",
+    "price": 4835,
+    "brand": "Modern Bamboo",
+    "featured": false,
+    "rating": 3.5
+  },
+  {
+    "name": "Revstone Almond",
+    "price": 1500,
+    "brand": "Eurotiles",
+    "featured": true,
+    "rating": 4
+  },
+  {
+    "name": "Skywing nanoeX Technology Inverter Airconditioner",
+    "price": 37863,
+    "brand": "Panasonic",
+    "featured": false,
+    "rating": 3
+  },
+  {
+    "name": "Prima Inverter Split Type Airconditioner (FP-53KSV009313)",
+    "price": 28998,
+    "brand": "Condura",
+    "featured": true,
+    "rating": 3
+  },
+  {
+    "name": "Dual Inverter Heat Pump Dryer (RV10VHP2B)",
+    "price": 12580,
+    "brand": "LG",
+    "featured": false,
+    "rating": 1
+  },
+  {
+    "name": "Anfallare - Alex Desk",
+    "price": 9080,
+    "brand": "Ikea",
+    "featured": false,
+    "rating": 2.5
+  },
+  {
+    "name": "Saunders Sofa",
+    "price": 64650,
+    "brand": "Salem",
+    "featured": true,
+    "rating": 4
+  },
+  {
+    "name": "Airlite Futon Cool Mattress",
+    "price": 3599.75,
+    "brand": "Uratex",
+    "featured": true,
+    "rating": 3.5
+  },
+  {
+    "name": "Back Support Gray Cushion",
+    "price": 815,
+    "brand": "Mandaue Foam",
+    "featured": false,
+    "rating": 2
+  },
+  {
+    "name": "Atelier Listone Giordano Wood Flooring",
+    "price": 6290,
+    "brand": "Global Home",
+    "featured": true,
+    "rating": 3
+  },
+  {
+    "name": "Pecan Brown Bamboo Veneer",
+    "price": 239.75,
+    "brand": "Modern Bamboo",
+    "featured": false,
+    "rating": 2
+  },
+  {
+    "name": "Astral Package B Sanitary Ware",
+    "price": 15720,
+    "brand": "Eurotiles",
+    "featured": false,
+    "rating": 1
+  },
+  {
+    "name": "Aerowings nanoeX Technology Multi-directional Flaps Inverter Airconditioner",
+    "price": 42600,
+    "brand": "Panasonic",
+    "featured": true,
+    "rating": 3.5
+  },
+  {
+    "name": "Vintage Style White Microwave Oven",
+    "price": 4165,
+    "brand": "Condura",
+    "featured": false,
+    "rating": 1
+  },
+  {
+    "name": "DualUp Monitor with Ergonomic Stand",
+    "price": 37900,
+    "brand": "LG",
+    "featured": false,
+    "rating": 2.5
+  },
+  {
+    "name": "Vretstorp Sleeper Sofa",
+    "price": 29990,
+    "brand": "Ikea",
+    "featured": true,
+    "rating": 5
+  },
+  {
+    "name": "Stefano Sofa",
+    "price": 33380,
+    "brand": "Salem",
+    "featured": false,
+    "rating": 2
+  },
+  {
+    "name": "Happy Dreams Buy 1 Take 1 Pillow",
+    "price": 360,
+    "brand": "Uratex",
+    "featured": true,
+    "rating": 3.5
+  }
+]
