@@ -66,8 +66,8 @@ const getAllProducts = async (req, res) => {
   // therefore returning all products, instead of throwing an error
   let results = Product.find(queries);
 
-  /* Sort the results based on the specified field and order
-   * Otherwise, set "dateCreated" as the default sort order */
+  /*** Sort the results based on the specified field and order ***
+   *** Otherwise, set "dateCreated" as the default sort order  ***/
   if (sort) {
     const sortFieldsAndOrder = sort.split(",").join(" ");
     results = results.sort(sortFieldsAndOrder);
@@ -75,11 +75,21 @@ const getAllProducts = async (req, res) => {
     results = results.sort("dateCreated");
   }
 
-  /*** Show only specific fields ***/
+  /*** Show only specific fields in the results ***/
   if (fields) {
     const fieldsSelected = fields.split(",").join(" ");
     results = results.select(fieldsSelected);
   }
+
+  /*** Set pagination and limit ***/
+  const page = Number(req.query.page) || 1; // Set Page (defaults to 1, when not specified)
+  const limit = Number(req.query.limit) || 10; // Set Limit (defaults to 10, when not specified)
+
+  // Calculate how many items will be skipped, depending on the specified page and limit
+  // This will determine the pagination
+  const skip = (page - 1) * limit;
+
+  results = results.skip(skip).limit(limit);
 
   const products = await results;
 
