@@ -3,6 +3,8 @@ require("express-async-errors");
 
 const express = require("express");
 const connectToDatabase = require("./database/connectToDatabase");
+const errorHandler = require("./middlewares/errorHandler");
+const notFound = require("./middlewares/notFound");
 const productsRoute = require("./routes/products");
 
 const app = express();
@@ -25,6 +27,12 @@ app.get("/", (req, res) => {
 
 // Products Route
 app.use("/api/v1/products", productsRoute);
+
+// Error Handler
+app.use(errorHandler);
+
+// Not Found
+app.use(notFound);
 
 const connectDBstartServer = async () => {
   try {
