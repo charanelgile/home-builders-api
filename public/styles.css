@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(235, 245, 255);
+}
+
+.container {
+  padding: 2rem;
+  width: fit-content;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+  font-size: x-large;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  font-size: 0.9rem;
+  letter-spacing: 0.03rem;
+  text-transform: uppercase;
+}
+
+.arrow {
+  font-size: medium;
+}

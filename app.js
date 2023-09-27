@@ -14,15 +14,12 @@ const port = process.env.PORT || 3001;
 // Parse JSON Data
 app.use(express.json());
 
+// Serve Static Contents
+app.use(express.static("./public"));
+
 // Root Route
 app.get("/", (req, res) => {
-  res.send(`
-    <h1>Home Builders API</h1>
-    <br/>
-    <h3>API for Home Construction Supplies built using Node, Express, and MongoDB</h3>
-    <br/>
-    <a href="/api/v1/products">Go to Endpoint</a>
-  `);
+  res.sendFile("./public/index.html");
 });
 
 // Products Route
