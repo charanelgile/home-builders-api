@@ -66,6 +66,15 @@ const getAllProducts = async (req, res) => {
   // therefore returning all products, instead of throwing an error
   let results = Product.find(queries);
 
+  /* Sort the results based on the specified field and order
+   * Otherwise, set "dateCreated" as the default sort order */
+  if (sort) {
+    const sortFieldsAndOrder = sort.split(",").join(" ");
+    results = results.sort(sortFieldsAndOrder);
+  } else {
+    results = results.sort("dateCreated");
+  }
+
   const products = await results;
 
   res.status(200).json({
